@@ -2,19 +2,23 @@
 
 body {
   color: hsl(0, 0%, 18%);
-  background-color: hsl(0, 0%, 96%);
+  background-color: hwb(0 96% 4%);
+  font-family: Oswald;
 }
 
 h1 {
-  font: 400 21px Oswald;
+  font-weight: 400;
+  font-size: clamp(1.25rem, 3.5vw, 2rem);
 }
 
 h2 {
-  font: 400 19px Oswald;
+  font-weight: 400;
+  font-size: clamp(1rem, 3vw, 1.75rem);
 }
 
 p {
-  font: 300 16px Oswald;
+  font-weight: 300;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 figure {
@@ -22,7 +26,7 @@ figure {
 }
 
 figcaption {
-  font: 200 14px Oswald;
+  font: 200 14px;
 }
 
 .grid {
@@ -57,7 +61,7 @@ nav ul {
 nav a {
   color: hsl(0, 0%, 96%);
   text-decoration: none;
-  font: 300 16px Oswald;
+  font: 300 16px;
   padding: 10px;
 }
 
@@ -105,7 +109,7 @@ iframe {
 }
 
 .contact-form {
-  font: 300 16px Oswald;
+  font: 300 16px;
   width: fit-content;
   margin: auto;
   border: 3px solid hsl(195, 52%, 76%);
@@ -118,7 +122,7 @@ iframe {
 
 input,
 textarea {
-  font: 300 14px Oswald;
+  font: 300 14px;
   width: 250px;
   border: 2px solid hsl(5, 37%, 24%);
   border-radius: 5px;
@@ -145,7 +149,7 @@ textarea {
 }
 
 .about-section > p {
-  font: 200 14px Oswald;
+  font: 200 14px;
 }
 
 .footer-content {
@@ -159,29 +163,29 @@ textarea {
 }
 
 .footer-content > p {
-  font: 200 14px Oswald;
+  font: 200 14px;
 }
 
 /*tablet layout*/
 @media only screen and (min-width: 768px) {
-  h1 {
-    font: 400 23px Oswald;
+  /* h1 {
+    font: 400 23px;
   }
 
   h2 {
-    font: 400 20px Oswald;
+    font: 400 20px;
   }
 
   p {
-    font: 400 17px Oswald;
-  }
+    font: 400 17px;
+  } */
 
   article p {
     padding-bottom: 30px;
   }
 
   figcaption {
-    font: 200 14px Oswald;
+    font: 200 14px;
   }
 
   .grid {
@@ -215,7 +219,7 @@ textarea {
   }
 
   nav a {
-    font: 400 19px Oswald;
+    font: 400 19px;
     color: hsl(0, 0%, 96%);
     text-decoration: none;
     padding: 10px;
@@ -257,12 +261,12 @@ textarea {
     padding: 0 10px 5px 10px;
   }
 
-  .product-images > figure{
+  .product-images > figure {
     padding: 0 10px 5px 0;
   }
 
   .contact-form {
-    font: 300 19px Oswald;
+    font: 300 19px;
     width: fit-content;
     margin: auto;
     border: 3px solid hsl(195, 52%, 76%);
@@ -273,7 +277,7 @@ textarea {
 
   input,
   textarea {
-    font: 300 16px Oswald;
+    font: 300 16px;
     width: 400px;
     border: 2px solid hsl(5, 37%, 24%);
     border-radius: 5px;
@@ -303,7 +307,7 @@ textarea {
   }
 
   .about-section > p {
-    font: 200 16px Oswald;
+    font: 200 16px;
   }
 
   .footer-content {
@@ -317,30 +321,30 @@ textarea {
   }
 
   .footer-content > p {
-    font: 300 16px Oswald;
+    font: 300 16px;
   }
 }
 
 /*desktop layout*/
 @media only screen and (min-width: 1024px) {
-  h1 {
-    font: 400 26px Oswald;
-  }
+  /* h1 {
+    font: 400 26px;
+  } */
 
-  h2 {
-    font: 400 23px Oswald;
+  /* h2 {
+    font: 400 23px;
   }
 
   p {
-    font: 400 21px Oswald;
-  }
+    font: 400 21px;
+  } */
 
   article p {
     padding-bottom: 30px;
   }
 
   figcaption {
-    font: 200 16px Oswald;
+    font: 200 16px;
   }
 
   .grid {
@@ -374,7 +378,7 @@ textarea {
   }
 
   nav a {
-    font: 400 21px Oswald;
+    font: 400 21px;
     color: hsl(0, 0%, 96%);
     text-decoration: none;
     padding: 10px;
@@ -420,7 +424,7 @@ textarea {
   }
 
   .contact-form {
-    font: 300 21px Oswald;
+    font: 300 21px;
     width: fit-content;
     margin: auto;
     border: 3px solid hsl(195, 52%, 76%);
@@ -431,7 +435,7 @@ textarea {
 
   input,
   textarea {
-    font: 300 18px Oswald;
+    font: 300 18px;
     width: 400px;
     border: 2px solid hsl(5, 37%, 24%);
     border-radius: 5px;
@@ -461,7 +465,7 @@ textarea {
   }
 
   .about-section > p {
-    font: 200 16px Oswald;
+    font: 200 16px;
   }
 
   .footer-content {
@@ -475,7 +479,7 @@ textarea {
   }
 
   .footer-content > p {
-    font: 300 18px Oswald;
+    font: 300 18px;
   }
 }
 
