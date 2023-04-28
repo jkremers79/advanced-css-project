@@ -8,12 +8,12 @@ body {
 
 h1 {
   font-weight: 400;
-  font-size: clamp(1.25rem, 3.5vw, 2rem);
+  font-size: clamp(2rem, 4vw, 3rem);
 }
 
 h2 {
   font-weight: 400;
-  font-size: clamp(1rem, 3vw, 1.75rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 p {
@@ -26,7 +26,8 @@ figure {
 }
 
 figcaption {
-  font: 200 14px;
+  font-weight: 200;
+  font-size: clamp(0.75rem, 2vw, 1rem);
 }
 
 .grid {
@@ -109,7 +110,8 @@ iframe {
 }
 
 .contact-form {
-  font: 300 16px;
+  font-weight: 300;
+  font-size: clamp(0.85rem, 2vw, 1.25rem);
   width: fit-content;
   margin: auto;
   border: 3px solid hsl(195, 52%, 76%);
@@ -149,7 +151,8 @@ textarea {
 }
 
 .about-section > p {
-  font: 200 14px;
+  font-weight: 200;
+  font-size: clamp(0.75rem, 2vw, 1rem);
 }
 
 .footer-content {
@@ -163,7 +166,8 @@ textarea {
 }
 
 .footer-content > p {
-  font: 200 14px;
+  font-weight: 200;
+  font-size: clamp(0.75rem, 2vw, 1.25rem);
 }
 
 /*tablet layout*/
@@ -184,9 +188,9 @@ textarea {
     padding-bottom: 30px;
   }
 
-  figcaption {
+  /* figcaption {
     font: 200 14px;
-  }
+  } */
 
   .grid {
     display: grid;
@@ -266,7 +270,7 @@ textarea {
   }
 
   .contact-form {
-    font: 300 19px;
+    /* font: 300 19px; */
     width: fit-content;
     margin: auto;
     border: 3px solid hsl(195, 52%, 76%);
@@ -306,9 +310,9 @@ textarea {
     padding: 0 10px;
   }
 
-  .about-section > p {
+  /* .about-section > p {
     font: 200 16px;
-  }
+  } */
 
   .footer-content {
     grid-column: 1 / 2;
@@ -320,9 +324,9 @@ textarea {
     align-items: center;
   }
 
-  .footer-content > p {
+  /* .footer-content > p {
     font: 300 16px;
-  }
+  } */
 }
 
 /*desktop layout*/
@@ -343,9 +347,9 @@ textarea {
     padding-bottom: 30px;
   }
 
-  figcaption {
+  /* figcaption {
     font: 200 16px;
-  }
+  } */
 
   .grid {
     display: grid;
@@ -424,7 +428,7 @@ textarea {
   }
 
   .contact-form {
-    font: 300 21px;
+    /* font: 300 21px; */
     width: fit-content;
     margin: auto;
     border: 3px solid hsl(195, 52%, 76%);
@@ -464,9 +468,9 @@ textarea {
     padding: 0 20px;
   }
 
-  .about-section > p {
+  /* .about-section > p {
     font: 200 16px;
-  }
+  } */
 
   .footer-content {
     grid-column: 1 / 2;
@@ -478,9 +482,9 @@ textarea {
     align-items: center;
   }
 
-  .footer-content > p {
+  /* .footer-content > p {
     font: 300 18px;
-  }
+  } */
 }
 
 /* feedback
