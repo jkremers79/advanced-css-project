@@ -6,11 +6,13 @@ body {
 }
 
 h1 {
-  font: 400 21px Oswald;
+  font-weight: 400;
+  font-size: clamp(2rem, 4vw, 3rem);
 }
 
 h2 {
-  font: 400 19px Oswald;
+  font-weight: 400;
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 p {
@@ -257,7 +259,7 @@ textarea {
     padding: 0 10px 5px 10px;
   }
 
-  .product-images > figure{
+  .product-images > figure {
     padding: 0 10px 5px 0;
   }
 
